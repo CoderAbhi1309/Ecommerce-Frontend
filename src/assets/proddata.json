@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "603b21b29909b50e58f9066f"
+  },
+  "title": "Men's Formal Shirt",
+  "price": "1999",
+  "size": "S",
+  "stock": "29",
+  "colour": "Lemon yellow",
+  "weight": "170 g",
+  "material": "cotton",
+  "image": ""
+},{
+  "_id": {
+    "$oid": "603b21b29909b50e58f90670"
+  },
+  "title": "Men's Formal Shirt",
+  "price": "1499",
+  "size": "M",
+  "stock": "14",
+  "colour": "Blue",
+  "weight": "240 g",
+  "material": "cotton",
+  "image": ""
+},{
+  "_id": {
+    "$oid": "603b21b29909b50e58f90671"
+  },
+  "title": "Men's Formal Shirt",
+  "price": "1299",
+  "size": "L",
+  "stock": "29",
+  "colour": "Light green",
+  "weight": "190 g",
+  "material": "cotton",
+  "image": ""
+},{
+  "_id": {
+    "$oid": "603b21b29909b50e58f90672"
+  },
+  "title": "Men's Formal Trouser",
+  "price": "1599",
+  "size": "S",
+  "stock": "19",
+  "colour": "Black",
+  "weight": "800 g",
+  "material": "cotton",
+  "image": ""
+},{
+  "_id": {
+    "$oid": "603b21b29909b50e58f90673"
+  },
+  "title": "Men's Formal Trouser",
+  "price": "1499",
+  "size": "M",
+  "stock": "25",
+  "colour": "Brown",
+  "weight": "850 g",
+  "material": "cotton",
+  "image": ""
+},{
+  "_id": {
+    "$oid": "603b21b29909b50e58f90674"
+  },
+  "title": "Men's Formal Trouser",
+  "price": "1399",
+  "size": "L",
+  "stock": "17",
+  "colour": "Dark Blue",
+  "weight": "900 g",
+  "material": "cotton",
+  "image": ""
+}]

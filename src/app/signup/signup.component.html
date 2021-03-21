@@ -1,0 +1,62 @@
+<!--br>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="text-align: center;border: darkgrey; border-width: thin; border-style: solid;">
+      <p> <h4>Sign-up with us!</h4>
+        <div style="padding-bottom: 1.5%; padding-top: 1.5%;">
+            <input style="width: 100%;" type="text" placeholder="First name" >
+           </div>
+      <div style="padding-bottom: 1.5%;">
+      <input style="width: 100%;" type="email" placeholder="Email" [(ngModel)]="Inemail">
+     </div>
+     <div style="padding-bottom: 2%;">
+      <input style="width: 100%;" type="password" placeholder="Password" [(ngModel)]="Inpass" >
+     </div>
+     <div style="padding-bottom: 1.5%;">
+        <input style="width: 100%;" type="number" placeholder="Mobile" [(ngModel)]="Inmobile">
+       </div>
+      <div style="text-align: center;">
+        <button style="width: 100%; text-align: center" class="btn btn-primary" (click)="signupbyemail()">
+            Create account
+        </button>
+         <div style="padding-top: 3%; padding-bottom: 0;"><p> <b> Already have an account?</b></p></div>
+        <div routerLink="/login" style="padding-bottom: 5%;"><button style="width: 50%; text-align: center" class="btn btn-primary" (click)="signupbyemail()">
+            Login!
+        </button></div>
+      </div>
+    </div>
+  </div>
+  <br-->
+
+  <div class="container-fluid" style="padding-bottom: 3%; padding-top: 1%;">
+<br>
+<div class="row" >
+  <div class="col-md-3"></div>
+    <div style="padding-top: 2%; text-align: center; border: 3px solid rgba(207, 228, 16, 0.637); border-width: medium; border-right: 0px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; box-shadow: 10px 10px 8px #888888;" class="col-md-3">
+      <p> <h4>Sign-up with us!</h4>
+        <div style="padding-bottom: 1.5%; padding-top: 5%;">
+            <input style="width: 100%;" type="text" placeholder="First name"  [(ngModel)]="Inname" >
+           </div>
+      <div style="padding-bottom: 1.5%;">
+      <input style="width: 100%;" type="email" placeholder="Email" [(ngModel)]="Inemail">
+     </div>
+     <div style="padding-bottom: 2%;">
+      <input style="width: 100%;" type="password" placeholder="Password" [(ngModel)]="Inpass" >
+     </div>
+     <div style="padding-bottom: 2%;">
+        <input style="width: 100%;" type="number" placeholder="Mobile" [(ngModel)]="Inmobile">
+       </div>
+      <div style="text-align: center; padding-top: 2%;">
+        <button style="width: 100%; text-align: center" class="button1" (click)="signupbyemail()" routerLink="/signupsuccess">
+            Create account
+        </button>
+         <div style="padding-top: 4%; padding-bottom: 1%;"><p> <b> Already have an account?</b></p></div>
+        <div routerLink="/login" style="padding-bottom: 3%; "><button style="width: 50%; text-align: center;" class="button2">
+            Login!
+        </button></div>
+      </div>
+    </div>
+    <div style="text-align: center; border: 3px solid rgba(207, 228, 16, 0.637); border-width: medium; border-left: 0px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; box-shadow: 10px 10px 8px #888888; margin: 0%; padding: 0%;" class="col-md-3"> 
+      <img style="width: 100%; height: 100%;" src="assets\menclip.jpg" alt="">
+    </div>
+  </div>
